@@ -1,0 +1,16 @@
+body {
+  background-color: #000;
+  color: aliceblue;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 239, 10);
+  margin: 10px;
+}
+a:hover {
+  color: rgb(122, 50, 216);
+}
+.contactUs:hover {
+  color: rgb(122, 50, 216);
+}
