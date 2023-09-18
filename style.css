@@ -1,12 +1,24 @@
-body {
-  background-color: #000;
-  color: aliceblue;
+header {
+  background-image: url(star-bg.svg);
   text-align: center;
+}
+main {
+  background-image: url(star-bg.svg);
+  text-align: center;
+}
+body {
+  background-color: #000001;
+  color: aliceblue;
+}
+h1 {
+  font-size: xx-large;
+  letter-spacing: 1.5;
 }
 a {
   text-decoration: none;
   color: rgb(255, 239, 10);
   margin: 10px;
+  display: block;
 }
 a:hover {
   color: rgb(122, 50, 216);
@@ -19,12 +31,34 @@ a .home:hover {
   height: auto;
   position: left;
 }
+.newcrazy {
+  display: flex;
+  justify-content: center;
+}
+.navigationBar {
+  max-width: 500px;
+  /* margin-left: auto; */
+  height: 500px;
+  padding: 10px;
+}
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 100%;
+  padding: 10px 20px;
   text-align: center;
+  border-color: white;
+  /* margin-left: auto; */
+  height: 500px;
+  overflow-y: auto;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.87),
+      rgba(0, 0, 0, 0.87),
+      rgba(0, 0, 0, 0.815)
+    ),
+    url(photos/backgroundOfMenu.png);
 }
 .inlinepar {
   display: inline-block;
@@ -63,11 +97,22 @@ a .home:hover {
   height: 200px;
   margin-bottom: 40px;
 }
-
+.platdujour {
+  border-radius: 100%;
+  width: 250px;
+  height: 200px;
+  margin-bottom: 40px;
+}
 footer {
-  height: 100px;
+  height: 60px;
   background-color: #111;
-  float: bottom;
-  text-align: center;
-  text-justify: auto;
+  /* float: bottom; */
+  /* text-align: center; */
+  /* text-justify: auto; */
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111;
 }
